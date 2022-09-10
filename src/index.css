@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  background-color: #a29bfe;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+}
+.title{
+  text-align: center;
+  align-items: center;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: 15%;
+  left: 7%;
+ transform: translateX(-50%,-50%);
+
+  
+}
+footer{
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  position: absolute;
+  top: 90%;
+  left: 47%;
+ transform: translateX(-50%,-50%);
+}
+.main_note{
+  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  top: 15%;
+  left: 40%;
+ transform: translateX(-50%,-50%);
+
+}
+.main_note input{
+  padding: 10px;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+.main_note textarea{
+  padding: 10px 20px;
+  font-size: 15px;
+  outline: none;
+  background: transparent;
+  border: none;
+}
+.main_note button{
+  position: absolute;
+  
+  top: 90%;
+  left: 86%;
+ transform: translateX(-50%,-50%);
+}
+.addIcon{
+  
+background-color: white;
+border-radius: 50%;
+color: orange;
+width: 200px;
+font-size: 100px;
+}
+.addIcon:hover{
+  background-color: orange;
+  color: white;
+  transition: 0.5s linear;
+}
+.note{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 2%;
+
+  
+
+  
+  
+ 
+ 
+}
+.note h1{
+  padding: 10px;
+}
+.note p{
+  padding: 10px;
+}
+.del_icon{
+  background-color: white;
+border-radius: 50%;
+color: orange;
+width: 200px;
+font-size: 100px;
+}
+.note button{
+  position: absolute;
+  
+  top: 90%;
+  left: 80%;
+ transform: translateX(-50%,-50%);
+}
+.del_icon:hover{
+  background-color: red;
+  color: white;
+  transition: 0.5s linear;
+}
